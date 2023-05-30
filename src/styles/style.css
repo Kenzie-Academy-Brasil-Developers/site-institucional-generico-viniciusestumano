@@ -19,6 +19,9 @@ body {
 }
 
 .header-container {
+    position: sticky;
+    top: 0;
+
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -363,4 +366,10 @@ footer {
     border: 1px solid var(--brand-1);
     color: var(--grey-5);
     background-color: var(--brand-1);
+}
+
+.modal-button:hover {
+    color: #364FC7;
+    border-color: #364FC7;
+    background-color: #212529;
 }
