@@ -1,7 +1,7 @@
 /* ------------------------------- Coloque sua lógica aqui ------------------------------- */
 const modalControler = document.getElementById('modal__controler')
-const modalOpen = document.getElementById('button-modal_open')
-const modalClose = document.getElementById('button-modal_close')
+const modalOpen = document.getElementById('button__modal-open')
+const modalClose = document.getElementById('button__modal-close')
 
 function closeModal () {
 
@@ -16,7 +16,7 @@ function openModal () {
 }
 
 function closeModalBody(event) {
-    console.log('seeeeeeeee');
+
     if(event.target == modalControler){
         closeModal()
     }
